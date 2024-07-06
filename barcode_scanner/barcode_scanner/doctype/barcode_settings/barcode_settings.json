@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-06-22 17:20:13.679985",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "page_width",
+  "page_height",
+  "barcode_width",
+  "barcode_height"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "page_width",
+   "fieldtype": "Float",
+   "label": "Page Width"
+  },
+  {
+   "fieldname": "page_height",
+   "fieldtype": "Float",
+   "label": "Page Height"
+  },
+  {
+   "fieldname": "barcode_width",
+   "fieldtype": "Float",
+   "label": "Barcode Width"
+  },
+  {
+   "fieldname": "barcode_height",
+   "fieldtype": "Float",
+   "label": "Barcode Height"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-06 12:25:02.156138",
+ "modified_by": "Administrator",
+ "module": "Barcode Scanner",
+ "name": "Barcode Settings",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
